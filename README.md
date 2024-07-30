@@ -102,19 +102,13 @@ cd server
 npm start
 ```
 
-5. Start the client
-
-```bash
-cd client
-npm start
-```
-6. Build this project(build artifact is in ./dist)
+5. Build this project(build artifact is in ./dist)
 ```bash
 npm build
 ```
 
 
-7. Build docker image
+6. Build docker image
 ```bash
 docker build -t socialecho-app .
 ```
