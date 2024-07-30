@@ -91,12 +91,6 @@ git clone https://github.com/Ericproof/socialecho-be.git
 2. Go to the project directory and install dependencies for both the client and server
 
 ```bash
-cd client
-npm install
-```
-
-```bash
-cd server
 npm install
 ```
 
