@@ -98,7 +98,6 @@ npm install
 4. Start the server
 
 ```bash
-cd server
 npm start
 ```
 
