@@ -119,6 +119,11 @@ npm start
 npm build
 ```
 build artifact is in ./dist
+7. Build docker image
+```bash
+docker build -t socialecho-app .
+```
+
 ### Configuration
 
 Run the `admin_tool.sh` script from the server directory with permissions for executing the script. This script is used for configuring the admin account, creating the initial communities, and other settings.
