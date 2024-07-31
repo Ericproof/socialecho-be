@@ -12,13 +12,12 @@ RUN npm install
 
 # Copy the compiled files from the dist directory to the container
 COPY dist/ ./dist/
-COPY .env .env
 
 # Expose the port that the application will run on
-EXPOSE 3000
+EXPOSE 4000
 
 # Set environment variables (optional)
-ENV NODE_ENV=production
+ENV NODE_ENV=development
 
 # Start the application
 CMD ["node", "dist/app.js"]
